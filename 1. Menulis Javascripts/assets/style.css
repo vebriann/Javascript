@@ -1,0 +1,15 @@
+.background-web {
+    background-color: red;
+}
+.responsive {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .responsive {
+        display: block;
+        background-color: blue;
+        height: 300px;
+    }
+    
+}
